@@ -4,7 +4,7 @@ import { Notify } from 'notiflix';
 
 // axios.defaults.baseURL = 'http://localhost:4000';
 
-axios.defaults.baseURL = 'https://goosetrack-backend.onrender.com';
+axios.defaults.baseURL = 'https://goosetrack-backend-92o6.onrender.com';
 
 export const setAuthHeader = accessToken => {
   axios.defaults.headers.common.Authorization = `Bearer ${accessToken}`;
